@@ -1,0 +1,145 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light py-4">
+            <div class="container">
+                <a class="navbar-brand d-flex p-3" href="index.html"><img src="Images/logo@2x.png" width="64"
+                        height="38" alt="">
+                    <div>
+                        <h1 class="fs-5 mb-0 text-white">Weather</h1>
+                        <small class="small text-white">tagline goes here</small>
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item item">
+                            <a class="nav-link active text-info" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Live Cameras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Photos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="hero d-flex align-items-center">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-12">
+                    <div class="container">
+                        <form class="find-location d-flex position-relative ">
+                            <input class="form-control me-2 py-3 rounded-pill" id="city-input" type="search"
+                                placeholder="Find Your Location..." aria-label="Search">
+                            <button class="btn btn-info" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row forecast-table">
+                <div class="card-group">
+
+                    <div class="card border-0">
+                        <div class="card-footer top mt-0 border-0 d-flex justify-content-between">
+                            <small class="text-muted" id="theDay"></small>
+                            <small class="text-muted" id="theDate"></small>
+                        </div>
+                        <div class="card-body text-white">
+                            <div id="location" class="text-muted fs-4"></div>
+                            <div id="degree ">
+                                <div class="d-flex align-items-center">
+                                    <span id="num" class="todat-degree"></span><sup class="fs-1">o</sup><span
+                                        class="cc">c</span>
+                                    <div id="forecast-icon">
+                                        <img src="" id="img" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="custom mb-2" id="case"></div>
+                            <span class="text-muted me-3"><img class="me-2"
+                                    src="https://routeweather.netlify.app/images/icon-umberella@2x.png" alt=""
+                                    width="21" height="22">20%</span>
+                            <span class="text-muted me-3"><img class="me-2"
+                                    src="https://routeweather.netlify.app/images/icon-wind@2x.png" alt="" width="23"
+                                    height="22">18km/h</span>
+                            <span class="text-muted me-3"><img class="me-2"
+                                    src="https://routeweather.netlify.app/images/icon-compass@2x.png" alt="" width="21"
+                                    height="22">East</span>
+                        </div>
+                    </div>
+
+                    <div class="card border-0">
+                        <div class="card-footer bdsgsd text-center">
+                            <small class="text-muted day" id="tomorrow-name1"></small>
+                        </div>
+                        <div class="card-body top1">
+                            <div class="degree d-flex justify-content-center align-items-center">
+                                <div>
+                                    <div class="forecast-icon">
+                                        <img src="" id="img1" alt="">
+                                    </div>
+                                    <div class="num2 fs-1 text-white" id="maxDegree1"></div>
+                                    <small id="minDegree1" class="text-muted fs-3"></small>
+                                    <div class="day" id="text1"></div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card border-0">
+                        <div class="card-footer text-center">
+                            <small class="text-muted day" id="tomorrow-name2"></small>
+                        </div>
+                        <div class="card-body top2">
+                            <div class="degree d-flex justify-content-center align-items-center">
+                                <div>
+                                    <div class="forecast-icon">
+                                        <img src="" id="img2" alt="">
+                                    </div>
+                                    <div class="num2 fs-1 text-white" id="maxDegree2"></div>
+                                    <small id="minDegree2" class="text-muted fs-3"></small>
+                                    <div class="day" id="text2"></div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

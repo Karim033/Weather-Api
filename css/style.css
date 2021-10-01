@@ -1,0 +1,115 @@
+body
+{
+    background-color: #1E202B;
+
+}
+.nav-item
+{
+    margin-left: 20px;
+}
+.small
+{
+    font-size: 12px;
+}
+.navbar
+{
+    background-color: #1E202B;
+}
+.nav-item .item
+{
+    padding: 2px 15px;
+    border: 2px solid transparent;
+    border-color: #009ad8;
+    border-radius: 30px;
+    color: white;
+}
+.nav-item a
+{
+    padding: 5px 25px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    color: white;   
+}
+.nav-item:hover a
+{
+    border: 2px solid #009ad8;
+    color: #009ad8 !important;
+}
+.hero
+{
+    height: 45vh;
+    background-image: url(../Images/slideshow-2.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.find-location input
+{
+    width: 100%;
+    padding: 20px 50px 20px 20px;
+    background-color: #1e202b;
+    color: white;
+    border-color: #212529;
+}
+.btn
+{
+    position: absolute;
+    top: 5px;
+    right: 13px;
+    bottom: 5px;
+    padding: 0 40px;
+    border-radius: 30px;
+    background-color: #009ad8;
+}
+.form-control:focus
+{
+    background-color: #212529;
+    color: white;
+    box-shadow: none;
+}
+.card-body
+{
+    background-color: #2D303D;
+
+}
+.top
+{
+    background: rgba(0 ,  0 ,  0, 0.8 ) !important;
+}
+.num
+{
+    font-size: 5rem;
+}
+.card-footer
+{
+    background-color: rgba(0 ,  0 ,  0, 0.8 );
+}
+.top1
+{
+    background: rgba(0 ,  0 ,  0, 0.5 ) !important;
+}
+.todat-degree
+{
+    font-size: 6rem;
+}
+.degree
+{
+    display: flex !important; 
+}
+.cc
+{
+    font-size: 6rem;
+}
+.top1
+{
+    background: #262936 !important;
+}
+.day
+{
+    margin-top: 10px;
+    color: #009ad8;
+}
+.bdsgsd
+{
+    background: rgba(0 0 0 / 87%)
+ 
+}
